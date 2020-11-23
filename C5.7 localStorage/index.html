@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>moduleC5_homework</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h3>Загрузка фотографий с ресурса
+    <a href="https://picsum.photos/"> picsum.photos. </a>
+    Укажите номер страницы сайта и лимит загружаемых фото. В оба поля введите числа в диапазоне от 1 до 10.</h3>
+  <div class="form-wrapper">
+    <div class="inputs">
+      <div class=input-wrapper>
+        <label for="j-page" class="label">Страница сайта:</label>
+        <input id="j-page" type="text" class="input" placeholder="Страница" tabindex="0">      
+      </div>
+      <div class="input-wrapper">
+        <label for="j-limit" class="label">Лимит фото:</label>
+        <input id="j-limit" type="text" class="input" placeholder="Лимит" tabindex="0">        
+      </div>      
+    </div>
+    <button class="btn j-btn-request" tabindex="0">Запрос данных</button>
+  </div>
+  <div class="result j-result"></div>
+  <script src="script.js"></script>
+</body>
+</html>
